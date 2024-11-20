@@ -1,0 +1,33 @@
+/* src/styles/Comments.module.css */
+.comments {
+    margin-top: 20px;
+  }
+  .comments ul {
+    list-style: none;
+    padding: 0;
+  }
+  .comments li {
+    background: hsl(0, 18%, 93%);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .comments input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .comments button {
+    background: #0070f3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .comments button:hover {
+    background: #005bb5;
+  }
+  
